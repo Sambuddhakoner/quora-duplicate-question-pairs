@@ -6,7 +6,7 @@ import pickle
 import numpy as np
 
 from nltk.corpus import stopwords
-# nltk.download('stopwords') 
+nltk.download('stopwords') 
 # stopwords.words("english")
 
 cv = pickle.load(open('cv2.pkl','rb'))
