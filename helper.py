@@ -4,11 +4,12 @@ import distance
 from fuzzywuzzy import fuzz
 import pickle
 import numpy as np
+
 from nltk.corpus import stopwords
-# nltk.download('stopwords')
+# nltk.download('stopwords') 
 # stopwords.words("english")
 
-cv = pickle.load(open('cv.pkl','rb'))
+cv = pickle.load(open('cv2.pkl','rb'))
 
 
 def test_common_words(q1,q2):
